@@ -2,3 +2,9 @@
 /.idea
 Homestead.json
 Homestead.yaml
+/tests/
+/storage/logs/
+/storage/framework/
+*.md
+.git/
+node_modules/
