@@ -10,7 +10,6 @@
       }
   ],
   "env": {
-      "APP_NAME": "Vercel Laravel",
       "APP_ENV": "production",
       "APP_DEBUG": "true",
       "APP_URL": "https://the-animal-lab.vercel.app",
@@ -23,7 +22,6 @@
       "LOG_CHANNEL": "stderr",
       "SESSION_DRIVER": "cookie",
       "VIEW_COMPILED_PATH": "/tmp/views",
-      "SSR_TEMP_PATH": "/tmp/ssr",
-      "NODE_PATH": "node_module"
+      "SSR_TEMP_PATH": "/tmp/ssr" 
   }
 }
