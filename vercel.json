@@ -6,17 +6,13 @@
     ],
     "routes": [
         {
-            "src": "/(css|js)/(.*)",
-            "dest": "public/$1/$2"
+            "src": "/(.*\\.(?:css|js|png|jpg|jpeg|gif|svg|ico|ttf|woff|woff2|eot|otf|webp|avif|txt))$",
+            "dest": "/public/$1"
         },
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        },
-        {
-            "source": "/images/:path",
-            "destination": "/public/images/:path"
-          }
+        }
     ],
     "env": {
         "APP_NAME": "Vercel Laravel",
