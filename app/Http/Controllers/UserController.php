@@ -27,7 +27,7 @@ class UserController extends Controller
         return redirect()->route('home');
     }
     public function authenticate(Request $request){
-
+        dd($request);
         $credentials = $request->validate([
             "email"=> ["required","email"],
             "password"=> ["required"],
