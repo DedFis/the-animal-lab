@@ -45,7 +45,7 @@ Route::get('animals/{animal}', [AnimalController::class,'readMore'])->name('read
 
 Route::post('/animals/{animal}', [CommentController::class,'store'])->name('comment.store');
 
-Route::get('/animals/{animal}/{comment}', [CommentController::class,'destroy'])->name('comment.destroy');
+// Route::get('/animals/{animal}/{comment}', [CommentController::class,'destroy'])->name('comment.destroy');
 
 Route::delete('/animals/{animal}/{comment}', [CommentController::class, 'destroy'])->name('comment.destroy');
 
