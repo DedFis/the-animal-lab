@@ -37,7 +37,7 @@ class MailController extends Controller
             ];
         }
         
-        Mail::to('medygunawan32@gmail.com')->send(new UserMail(Auth::user()->email, $data));
+        Mail::to('medy.gunawan@binus.ac.id')->send(new UserMail(Auth::user()->email, $data));
         
         return back()->with('success', true);
     }
